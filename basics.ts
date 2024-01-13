@@ -38,7 +38,7 @@ let people: {
 }[];
 
 // Type inference
+// Union Type
+let course: string | number | boolean = "React - The Complete Guide";
 
-let course = "React - The Complete Guide";
-
-// course = 12345
+course = 12345

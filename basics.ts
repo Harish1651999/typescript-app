@@ -42,3 +42,13 @@ let people: Person[];
 let course: string | number | boolean = "React - The Complete Guide";
 
 course = 12345
+
+// Function & types
+
+function add(a: number, b: number){
+    return a + b;
+}
+
+function print(value: any){
+    console.log(value);
+}
